@@ -1,6 +1,7 @@
 # Timegate
+![timegate](https://github.com/user-attachments/assets/96ea636c-2b55-43bc-94e8-9d1f44d22d43)
 
-A 3D printed fiber optic RGB LED clock.
+A 3D printed fiber optic RGB LED clock. A color represents a different hand of the clock, red is hours, green is minutes, and blue is seconds. The colors are configurable and the microcontroller it's built on uses WiFi and NTP to sync the time automatically.
 
 ## Required Tools
 
@@ -39,4 +40,4 @@ For both the LEDs and optical fiber, you'll need less than 0.5m per clock.
 12. Fit the microcontroller onto the plastic pins, then melt the tops of the pins to hold it down.
 13. Connect the microcontroller to your computer, you may need to first flash it with CircuitPython 9.x (follow the instructions from Adafruit).
 14. Copy the contents of the `src` folder to the microcontroller.
-15. Edit the `settings.py` with the code editor of your choice and enter your wifi credentials and time zone information.
+15. Edit the `settings.py` with the code editor of your choice and enter your WiFi credentials and time zone information.
